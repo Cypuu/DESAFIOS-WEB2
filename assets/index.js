@@ -22,15 +22,3 @@ if(cantidadDeseada >= 5){
 else{
     alert(`Su compra de ${cantidadDeseada} teclado/s, cuesta: ${total}`)
 }
-
-
-/*
-let edad = prompt( "Ingrese su edad: ")
-
-if(edad >= 18){
-    alert("podes ingresar")
-}
-else{
-    alert("No podes entrar")
-}
-*/
