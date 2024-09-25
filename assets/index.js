@@ -10,7 +10,7 @@ alert("Costo total de la compra: " + CostoTotal)
 */
 
 const nombreProducto = "teclado"
-const precioUnitario = "85000"
+const precioUnitario = 85000
 let cantidadDeseada = parseInt(prompt("¿Que cantidad de teclados ($85000) desea comprar?: "))
 const total = cantidadDeseada*precioUnitario
 const descuento = cantidadDeseada*precioUnitario*0.10
