@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+const nombreProducto = "teclado"
+const precioUnitario = 85000
+let cantidadDeseada = parseInt(prompt("¿Que cantidad de teclados ($85000) desea comprar?: "))
+const total = cantidadDeseada*precioUnitario
+const descuento = cantidadDeseada*precioUnitario*0.1
+const totalDesc = total-descuento
+
+if(cantidadDeseada >= 5){
+    alert(`Total: $${total}. Por adquirir ${cantidadDeseada} teclado/s, se descuenta el 10%, = $${descuento}. El monto a pagar es de: $${totalDesc}`)
+}
+else{
+    alert(`Su compra de ${cantidadDeseada} teclado/s, cuesta: ${total}`)
+}
+</script>
+</body>
+</html>
